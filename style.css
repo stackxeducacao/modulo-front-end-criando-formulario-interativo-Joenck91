@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+form{
+    width: 300px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+input{
+    padding: 3px;
+    background-color: antiquewhite;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+#sexo{
+    padding: 3px;
+    background-color: antiquewhite;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+.numeroCep{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+#numero{
+    width: 50px;
+}
+#cep{
+    width: 100px;
+}
+#comentarios{
+    height: 60px;
+}
+button{
+    padding: 5px;
+    width: 90px;
+    background-color:antiquewhite;
+    border: solid 2px black;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
